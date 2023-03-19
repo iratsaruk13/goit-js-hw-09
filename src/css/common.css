@@ -18,22 +18,19 @@ img {
 }
 
 .btn {
-  min-width: 216px;
-  min-height: 50px;
-  font-family: inherit;
+  min-width: 200px;
+  min-height: 60px;
   background-color: #188ce8;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.88;
-  display: block;
-  margin: 0 auto;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: yellow;
   cursor: pointer;
   border: 0;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 .btn:hover,
 .btn:focus {
@@ -42,6 +39,46 @@ img {
 }
 .btn:disabled {
   background-color: darkgrey;
-  color: #ffffff;
+  color: white;
   cursor: no-drop;
+}
+
+input {
+  background-color: yellow;
+  border: 3px solid#188ce8;
+  border-radius: 4px;
+  width: 300px;
+  height: 55px;
+  margin-bottom: 20px;
+  padding-left: 16px;
+  color: #188ce8;
+  font-size: 20px;
+}
+
+input:focus {
+  border: 3px solid yellow;
+  color: yellow;
+  background-color: #188ce8;
+}
+
+.timer {
+  text-align: center;
+  display: flex;
+  gap: 30px;
+}
+
+.value {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #188ce8;
+}
+
+.label {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #188ce8;
 }
