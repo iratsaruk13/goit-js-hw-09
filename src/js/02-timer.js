@@ -89,7 +89,7 @@ function onCheckingDate(value) {
 }
 function onStartBtnClick() {
   timer.start(dateValue);
-  refs.startBtn.disabled = true;
+  onDisableBtn();
 }
 
 function onDisableBtn() {
